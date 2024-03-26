@@ -9,13 +9,11 @@ export default function EmergencyBenefits() {
   return (
     <section className="emergency-benefits-container">
       <div className="emergency-intro">
-        <h3>
+        {/* <h3>
           YOU CAN <span>TRUST US</span>
-        </h3>
+        </h3> */}
       </div>
-
       <section className="card-benefits-section">
-
         <div className="card-benefits-container">
           <span className="first-span"></span>
             <div className="card-items-container">
@@ -27,7 +25,6 @@ export default function EmergencyBenefits() {
             </div>
           <span className="second-span"></span>
         </div>
-
         <div className="card-benefits-container">
           <span className="first-span"></span>
             <div className="card-items-container">
@@ -39,7 +36,6 @@ export default function EmergencyBenefits() {
             </div>
           <span className="second-span"></span>
         </div>
-
         <div className="card-benefits-container">
           <span className="first-span"></span>
             <div className="card-items-container">
@@ -51,7 +47,6 @@ export default function EmergencyBenefits() {
             </div>
           <span className="second-span"></span>
         </div>
-
         <div className="card-benefits-container">
           <span className="first-span"></span>
             <div className="card-items-container">
@@ -63,7 +58,6 @@ export default function EmergencyBenefits() {
             </div>
           <span className="second-span"></span>
         </div>
-
       </section>
     </section>
   );

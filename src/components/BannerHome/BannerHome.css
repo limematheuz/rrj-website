@@ -108,10 +108,11 @@
 .emergency-title-parraf-four {
   width: 40%;
   height: 80%;
-  max-width: 550px;
+  max-width: 450px;
   min-width: 260px;
+  max-height: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   margin-left: 5%;
@@ -534,6 +535,7 @@
   .emergency-title-parraf-four {
     width: 100%;
     height: 60%;
+    max-height: 100%;
     margin-left: 0%;
     background-color: #00000000;
     border: none;

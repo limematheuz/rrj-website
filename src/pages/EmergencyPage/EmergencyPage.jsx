@@ -9,8 +9,8 @@ import certifiedOne from "../../assets/certifie-one.svg";
 import certifiedTwo from "../../assets/certifie-two.svg";
 import ArrowUp from "../../components/ArrowUp/ArrowUp";
 
-import bgStorm from "../../assets/img/website-home.jpg";
-import bgInsuranceMobile from "../../assets/bg-home-mobile.jpg";
+import bgEmergency from "../../assets/img/website-home-new-campain.jpg";
+import bgEmergencyMobile from "../../assets/bg-home-mobile.jpg";
 import CertificatesSwiper from "../../components/CertificatesSwiper/CertificatesSwiper";
 
 import EmergencyIntro from "../../components/EmergencyServices/EmergencyIntro/EmergencyIntro";
@@ -21,23 +21,23 @@ import EmergencyServicesArea from "../../components/EmergencyServices/EmergencyS
 
 export default function EmergencyPage(){
     return (
-        <section className="financy-page-container">
+        <section className="emergency-page-container">
           <section className="cont-general-app">
             <Header />
             <section className="left-home-cont">
-              <div className="cont-title">
-                <div className="financy-cont-info-items">
+              <div className="emergency-cont-title">
+                <div className="emergency-cont-info-items">
                   <h2>
-                    <span className="financy-box-first-title">
+                    <span className="emergency-box-first-title">
                       <span className="first">EMERGENCY</span>
                       <span className="second">SERVICES</span>
                     </span>
-                    <span className="tercer">EXPERTS </span>
+                    {/* <span className="tercer">EXPERTS </span> */}
                   </h2>
-                  <h3>YOUR SAFETY IS OUR PRIORITY</h3>
+                  <h3> work with professionals</h3>
                 </div>
-                <div className="cont-contact-financy">
-                  <a href="#emergency-contact" className="btn-contact-financy">
+                <div className="cont-contact-emergency">
+                  <a href="#emergency-contact" className="btn-contact-emergency">
                     Reserve
                   </a>
                   <SocialBtns />
@@ -54,9 +54,9 @@ export default function EmergencyPage(){
             <a href="#emergency-contact" className="btn-financy-responsive">
               reserve
             </a>
-            <img className="insurance-bg-page" src={bgStorm} alt="bg-home" />
-            <img className="insurance-bg-tablet" src={bgInsuranceMobile} alt="bg-home" />
-            <img className="insurance-bg-mobile" src={bgInsuranceMobile} alt="bg-home" />
+            <img className="insurance-bg-page" src={bgEmergency} alt="bg-home" />
+            <img className="insurance-bg-tablet" src={bgEmergencyMobile} alt="bg-home" />
+            <img className="insurance-bg-mobile" src={bgEmergencyMobile} alt="bg-home" />
           </section>
           <EmergencyIntro/>
           <EmergencyBenefits/>

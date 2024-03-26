@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.emergency-title-first{
+  display: none;
+}
+
 .intro-items-container {
   width: 40%;
   height: 450px;
@@ -31,6 +35,7 @@
   width: 100%;
   font-size: 3rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .emergency-title h2 span {
@@ -83,7 +88,7 @@
   border: 2px solid red;
 }
 
-.emergency-intro-info a:hover{
+.emergency-intro-info a:hover {
   background-color: white;
   color: red;
   border: 2px solid red;
@@ -141,12 +146,6 @@
     /* border: 1px solid red; */
   }
 
-  /* .emergency-intro-info h3 {
-        background-color: red;
-        color: white;
-        font-size: 1.4rem;
-      } */
-
   .emergency-intro-info h4 {
     font-size: 1.4rem;
     font-weight: bold;
@@ -181,9 +180,9 @@
 @media (max-width: 600px) {
   .emergency-container {
     width: 100%;
-    height: 650px;
-    margin-top: 100px;
-    position: sticky;
+    height: 100vh;
+    margin-top: 40px;
+    /* position: sticky; */
   }
 
   .first-emergency-img {
@@ -192,49 +191,46 @@
     height: 30%;
     min-height: 250px;
     border-radius: 24px;
-    position: sticky;
+    position: static;
     /* border: 1px solid red; */
   }
 
   .intro-items-container {
     width: 90%;
     height: 55%;
-    /* border: 2px solid black; */
   }
 
-  .emergency-title {
+  .emergency-title-first {
     width: 100%;
     height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* border: 1px solid rgb(0, 217, 255); */
   }
 
-  .emergency-title h2 {
+  .emergency-title-first h2 {
     width: 100%;
     font-size: 1.8rem;
     font-weight: bold;
-    margin-top: 40px; /*esta linea puede ser comentada*/
+    text-transform: uppercase;
+  }
+
+  .emergency-title-first h2 span {
+    color: red;
+  }
+
+  .emergency-title {
+    display: none;
   }
 
   .emergency-intro-info {
     width: 100%;
-    height: 70%;
+    height: 80%;
     display: flex;
-    justify-content: space-evenly;
-    gap: 0px;
-    /* border: 1px solid rgb(0, 255, 145); */
+    justify-content: space-between;
+    gap: 20px;
   }
-
-  /* .emergency-intro-info h3 {
-        background-color: red;
-        color: white;
-        font-size: 1.4rem;
-        font-weight: bold;
-        padding: 10px 15px;
-      } */
 
   .emergency-intro-info h4 {
     font-size: 1.2rem;
@@ -251,11 +247,12 @@
   }
 
   .second-emergency-img {
-    width: 100%;
+    width: 60%;
     max-width: 100%;
-    height: 30%;
+    height: 25%;
+    min-height: 250px;
     border-radius: 24px;
-    position: sticky;
-    display: none;
+    position: static;
+    /* display: none; */
   }
 }

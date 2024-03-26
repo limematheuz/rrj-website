@@ -23,18 +23,18 @@
 }
 
 .card-benefits-section {
-  width: 100%;
+  width: 90%;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
   gap: 25px;
-  /* border: 1px solid rgb(0, 0, 0); */
 }
 
 .card-benefits-container {
-  width: 320px;
+  width: 30%;
+  max-width: 320px;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -42,7 +42,6 @@
   background-color: #e7e7e7;
   border-radius: 24px;
   position: relative;
-  /* border: 1px solid rgb(0, 255, 42); */
 }
 
 .first-span {
@@ -80,27 +79,27 @@
 .card-items-container img {
   width: 60px;
   height: 60px;
-  padding: 4px;
-  margin-left: 20px;
+  padding: 8px;
+  margin-left: 30px;
   border-radius: 12px;
   background-color: red;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.114);
 }
 
 .card-items-container h6 {
-  width: 85%;
+  width: 80%;
   font-size: 1.3rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .card-items-container p {
-  width: 85%;
+  width: 80%;
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.1;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -122,13 +121,15 @@
   }
 
   .card-benefits-section {
+    width: 90%;
     height: fit-content;
     flex-flow: wrap;
     gap: 40px;
   }
 
   .card-benefits-container {
-    width: 400px;
+    width: 100%;
+    min-width: 320px;
     height: 280px;
   }
 
@@ -140,21 +141,21 @@
   .card-items-container img {
     width: 50px;
     height: 50px;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .card-items-container h6 {
     font-size: 1.3rem;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .card-items-container p {
     font-size: 1rem;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 768px) {
   .emergency-benefits-container {
     width: 100%;
     height: 100%;
@@ -173,14 +174,16 @@
   }
 
   .card-benefits-section {
+    width: 90%;
     height: fit-content;
     flex-flow: wrap;
     gap: 20px;
   }
 
   .card-benefits-container {
-    width: 90%;
-    max-width: 380px;
+    width: 100%;
+    max-width: 500px;
+    /* min-width: 340px; */
     height: 200px;
   }
 
@@ -208,8 +211,8 @@
   .card-items-container img {
     width: 30px;
     height: 30px;
-    padding: 4px;
-    margin-left: 15px;
+    padding: 6px;
+    margin-left: 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.114);
   }
@@ -218,13 +221,13 @@
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .card-items-container p {
     font-size: 0.9rem;
     letter-spacing: 1px;
     line-height: 1.1;
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }

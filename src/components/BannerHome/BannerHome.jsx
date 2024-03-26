@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import financyBannerBg from "../../assets/financy-banner.jpg";
 import bgFree from "../../assets/bgFree.jpg";
 import stormBanner from "../../assets/img/website-banner.jpg";
+import emergencyBanner from "../../assets/img/website-home-new-campain-2.jpg";
 
 import check from "../../assets/icons/circle-check-regular.svg";
 import Arrow from "../../assets/arrow.svg";
@@ -61,13 +62,11 @@ export default function BannerHome() {
               <div className="financy-banner-info">
                 <div className="emergency-first-title">
                   <img src={emergency} alt="" />
-                  <p className="financy-banner-title">Emergency Experts</p>
+                  <p className="financy-banner-title">Emergency Services</p>
                 </div>
                 <hr />
-                <h3>When emergencies strike unexpectedly</h3>
-                <p className="emergency-second-parraf">
-                Rely on RRJ.
-                </p>
+                <h3>work with professionals</h3>
+                {/* <p className="emergency-second-parraf">Rely on RRJ.</p> */}
                 <div className="financy-btn">
                   <Link
                     to={"/emergency-services"}
@@ -81,11 +80,10 @@ export default function BannerHome() {
             </div>
             <img
               className="financy-banner-container-img storm-banner"
-              src={stormBanner}
+              src={emergencyBanner}
               alt="banner-img"
             />
           </div>
-
           <div className="financy-banner-container insurance-banner-container">
             <div className="financy-title-parraf-one">
               <div className="financy-banner-info">
@@ -117,7 +115,6 @@ export default function BannerHome() {
               alt="banner-img"
             />
           </div>
-
           <div className="financy-banner-container  finan-banner-cont">
             <div className="financy-title-parraf-two">
               <div className="financy-banner-info">
@@ -146,14 +143,12 @@ export default function BannerHome() {
                 </div>
               </div>
             </div>
-
             <img
               className="financy-banner-container-img"
               src={financyBannerBg}
               alt="banner-img"
             />
           </div>
-
           <div className="financy-banner-container free-banner-container">
             <div className="financy-title-parraf-three">
               <div className="financy-banner-info">
