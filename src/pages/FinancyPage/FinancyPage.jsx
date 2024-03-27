@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import SocialBtns from "../../components/SocialBtns/SocialBtns";
 import AlertMascot from "../../components/AlertMascot/AlertMascot";
@@ -22,14 +21,14 @@ export default function FinancyPage() {
       <section  className="cont-general-app" >
         <Header />
         <section className="left-home-cont">
-          <div className="cont-title">
+          <div className="financy-cont-title">
             <div className="financy-cont-info-items">
               <h2>
                 <span className="financy-box-first-title">
-                  <span className="first">excellent!</span>
-                  <span className="second">my financing</span>
+                  <span className="financy-first-item">excellent!</span>
+                  <span className="financy-second-item">my financing</span>
                 </span>
-                <span className="tercer">was approved</span>
+                <span className="financy-tercer-item">was approved</span>
               </h2>
               <h3>financing available</h3>
             </div>

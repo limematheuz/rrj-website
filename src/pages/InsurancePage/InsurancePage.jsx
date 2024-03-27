@@ -19,23 +19,23 @@ import InsuranceContact from "../../components/StormDamageComponents/InsuranceCo
 
 export default function InsurancePage() {
   return (
-    <section className="financy-page-container">
+    <section className="insurance-page-container">
       <section className="cont-general-app">
         <Header />
         <section className="left-home-cont">
           <div className="cont-title">
-            <div className="financy-cont-info-items">
+            <div className="insurance-cont-info-items">
               <h2>
-                <span className="financy-box-first-title">
-                  <span className="first">INSURANCE</span>
-                  <span className="second">CLAIMS</span>
+                <span className="insurance-box-first-title">
+                  <span className="insurance-first-item">INSURANCE</span>
+                  <span className="insurance-second-item">CLAIMS</span>
                 </span>
-                <span className="tercer">EXPERTS </span>
+                <span className="insurance-tercer-item">EXPERTS </span>
               </h2>
               <h3>WIND DAMAGE? DON'T WORRY</h3>
             </div>
-            <div className="cont-contact-financy">
-              <a href="#financy-form-cont" className="btn-contact-financy">
+            <div className="cont-contact-insurance">
+              <a href="#financy-form-cont" className="btn-contact-insurance">
                 Reserve
               </a>
               <SocialBtns />
@@ -49,7 +49,7 @@ export default function InsurancePage() {
             <img src={certifiedTwo} alt="certificado" />
           </div>
         </section>
-        <a href="#financy-form-cont" className="btn-financy-responsive">
+        <a href="#financy-form-cont" className="btn-insurance-responsive">
           reserve
         </a>
         <img className="insurance-bg-page" src={bgStorm} alt="bg-home" />

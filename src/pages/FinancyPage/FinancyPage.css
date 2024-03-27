@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.cont-title {
+.financy-cont-title {
   width: 90%;
   height: 65%;
   display: flex;
@@ -41,7 +41,7 @@
   align-items: flex-start;
 }
 
-.financy-cont-info-items h2 .first {
+.financy-cont-info-items h2 .financy-first-item {
   background-color: rgba(255, 0, 0, 0.884);
   padding: 4px 10px;
   border-radius: 10px 10px 0px 0px;
@@ -49,7 +49,7 @@
   text-shadow: none;
 }
 
-.financy-cont-info-items h2 .second {
+.financy-cont-info-items h2 .financy-second-item {
   background-color: rgba(0, 0, 0, 0.76);
   padding: 4px 10px;
   border-radius: 0px 10px 0px 0px;
@@ -57,7 +57,7 @@
   text-shadow: none;
 }
 
-.financy-cont-info-items h2 .tercer {
+.financy-cont-info-items h2 .financy-tercer-item {
   background-color: rgba(255, 0, 0, 0.884);
   padding: 4px 10px;
   border-radius: 0px 10px 10px 10px;
@@ -65,7 +65,7 @@
   text-shadow: none;
 }
 
-.financy-cont-info-items h2 .second-service {
+/* .financy-cont-info-items h2 .second-service {
   background-color: rgba(0, 0, 0, 0.76);
   padding: 4px 10px;
   border-radius: 10px 10px 10px 0px;
@@ -93,9 +93,9 @@
   border-radius: 0px 10px 10px 10px;
   backdrop-filter: blur(10px);
   text-shadow: none;
-}
+} */
 
-.cont-title h3 {
+.financy-cont-title h3 {
   font-size: 3vh;
   color: white;
   margin-top: 15px;
@@ -220,7 +220,7 @@
 }
 
 @media (max-width: 1024px) {
-  .cont-title {
+  .financy-cont-title {
     width: 90%;
     height: 65%;
     display: flex;
@@ -255,27 +255,27 @@
     align-items: flex-start;
   }
 
-  .financy-cont-info-items h2 .first {
+  .financy-cont-info-items h2 .financy-first-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 10px 10px 0px 0px;
     backdrop-filter: blur(10px);
   }
 
-  .financy-cont-info-items h2 .second {
+  .financy-cont-info-items h2 .financy-second-item {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 0px 10px 0px 0px;
     backdrop-filter: blur(10px);
   }
 
-  .financy-cont-info-items h2 .tercer {
+  .financy-cont-info-items h2 .financy-tercer-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur(10px);
   }
-
+/* 
   .financy-cont-info-items h2 .second-service {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
@@ -302,9 +302,9 @@
     padding: 4px 10px;
     border-radius: 0px 10px 10px 10px;
     backdrop-filter: blur(10px);
-  }
+  } */
 
-  .cont-title h3 {
+  .financy-cont-title h3 {
     font-size: 2vh;
     color: white;
     margin-top: 15px;
@@ -376,7 +376,7 @@
 }
 
 @media (max-width: 600px) {
-  .cont-title {
+  .financy-cont-title {
     width: 90%;
     height: 65%;
     display: flex;
@@ -411,28 +411,28 @@
     align-items: center;
   }
 
-  .financy-cont-info-items h2 .first {
+  .financy-cont-info-items h2 .financy-first-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 10px 10px 0px 0px;
     backdrop-filter: blur(10px);
   }
 
-  .financy-cont-info-items h2 .second {
+  .financy-cont-info-items h2 .financy-second-item {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     backdrop-filter: blur(10px);
   }
 
-  .financy-cont-info-items h2 .tercer {
+  .financy-cont-info-items h2 .financy-tercer-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     backdrop-filter: blur(10px);
   }
 
-  .financy-cont-info-items h2 .second-service {
+  /* .financy-cont-info-items h2 .second-service {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
     border-radius: 10px 10px 10px 0px;
@@ -458,9 +458,9 @@
     padding: 4px 10px;
     border-radius: 0px 10px 10px 10px;
     backdrop-filter: blur(10px);
-  }
+  } */
 
-  .cont-title h3 {
+  .financy-cont-title h3 {
     text-align: center;
     font-size: 2vh;
     color: white;

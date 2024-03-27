@@ -3,7 +3,7 @@ import "./EmergencyServicesArea.css";
 import React from "react";
 import { useRef } from "react";
 import useFirestoreCollection from "../../../useFirestoreCollection";
-import bgServicesArea from "../../../assets/bg-home-services.jpg";
+import bgServicesArea from "../../../assets/bg-home-two.jpg";
 import bgServicesResponsive from "../../../assets/bg-home-services-responsive.jpg";
 import arrow from "../../../assets/arrow.svg";
 import more from "../../../assets/more.svg";

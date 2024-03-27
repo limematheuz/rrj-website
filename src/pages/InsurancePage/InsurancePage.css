@@ -1,4 +1,4 @@
-.financy-page-container {
+.insurance-page-container {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -15,14 +15,14 @@
     justify-content: space-between;
   }
   
-  .financy-cont-info-items {
+  .insurance-cont-info-items {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
   }
   
-  .financy-cont-info-items h2 {
+  .insurance-cont-info-items h2 {
     width: 100%;
     font-size: 5vh;
     color: white;
@@ -35,29 +35,29 @@
     align-items: flex-start;
   }
   
-  .financy-cont-info-items h2 .financy-box-first-title {
+  .insurance-cont-info-items h2 .insurance-box-first-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
   
-  .financy-cont-info-items h2 .first {
+  .insurance-cont-info-items h2 .insurance-first-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 0px;
     backdrop-filter: blur(10px);
     text-shadow: none;
   }
   
-  .financy-cont-info-items h2 .second {
+  .insurance-cont-info-items h2 .insurance-second-item {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     backdrop-filter: blur(10px);
     text-shadow: none;
   }
   
-  .financy-cont-info-items h2 .tercer {
+  .insurance-cont-info-items h2 .insurance-tercer-item {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 0px 10px 10px 10px;
@@ -65,21 +65,21 @@
     text-shadow: none;
   }
   
-  .financy-cont-info-items h2 .second-service {
+  /* .insurance-cont-info-items h2 .second-service {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
     border-radius: 10px 10px 10px 0px;
     backdrop-filter: blur(10px);
   }
   
-  .financy-cont-info-items h2 .tercer-service {
+  .insurance-cont-info-items h2 .tercer-service {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 0px 0px 10px 10px;
     backdrop-filter: blur(10px);
   }
   
-  .financy-cont-info-items h2 .second-contact {
+  .insurance-cont-info-items h2 .second-contact {
     background-color: rgba(0, 0, 0, 0.76);
     padding: 4px 10px;
     border-radius: 10px 10px 0px 0px;
@@ -87,13 +87,13 @@
     text-shadow: none;
   }
   
-  .financy-cont-info-items h2 .tercer-contact {
+  .insurance-cont-info-items h2 .tercer-contact {
     background-color: rgba(255, 0, 0, 0.884);
     padding: 4px 10px;
     border-radius: 0px 10px 10px 10px;
     backdrop-filter: blur(10px);
     text-shadow: none;
-  }
+  } */
   
   .cont-title h3 {
     font-size: 3vh;
@@ -108,7 +108,7 @@
     width: 100%;
   }
   
-  .cont-contact-financy {
+  .cont-contact-insurance {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,11 +116,11 @@
     margin-bottom: 8%;
   }
   
-  .btn-financy-responsive {
+  .btn-insurance-responsive {
     display: none;
   }
   
-  .cont-contact-financy .btn-contact-financy {
+  .cont-contact-insurance .btn-contact-insurance {
     background-color: rgba(0, 0, 0, 0.822);
     color: white;
     padding: 12px 15px;
@@ -135,7 +135,7 @@
     display: block;
   }
   
-  .cont-contact-financy .btn-contact-financy:hover {
+  .cont-contact-insurance .btn-contact-insurance:hover {
     border: 2px solid white;
     background-color: white;
     color: red;
@@ -151,18 +151,18 @@
     margin-top: 5%;
   }
   
-  .financy-title {
+  .insurance-title {
     font-size: 3rem;
     font-weight: bold;
     color: red;
     text-align: center;
   }
   
-  .financy-span {
+  .insurance-span {
     color: black;
   }
   
-  .financy-text {
+  .insurance-text {
     width: 40%;
     font-size: 1.1rem;
     text-align: center;
@@ -199,14 +199,14 @@
       justify-content: space-between;
     }
   
-    .financy-cont-info-items {
+    .insurance-cont-info-items {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
     }
   
-    .financy-cont-info-items h2 {
+    .insurance-cont-info-items h2 {
       width: 100%;
       font-size: 3.4vh;
       color: white;
@@ -219,60 +219,60 @@
       align-items: flex-start;
     }
   
-    .financy-cont-info-items h2 .financy-box-first-title {
+    .insurance-cont-info-items h2 .insurance-box-first-title {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
     }
   
-    .financy-cont-info-items h2 .first {
+    .insurance-cont-info-items h2 .insurance-first-item {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
-      border-radius: 10px 10px 0px 0px;
+      border-radius: 10px 10px 10px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second {
+    .insurance-cont-info-items h2 .insurance-second-item {
       background-color: rgba(0, 0, 0, 0.76);
       padding: 4px 10px;
       border-radius: 0px 0px 10px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer {
+    .insurance-cont-info-items h2 .insurance-tercer-item {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
-      border-radius: 0px 0px 10px 10px;
+      border-radius: 0px 10px 10px 10px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second-service {
+    /* .insurance-cont-info-items h2 .second-service {
       background-color: rgba(0, 0, 0, 0.76);
       padding: 4px 10px;
       border-radius: 10px 10px 10px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer-service {
+    .insurance-cont-info-items h2 .tercer-service {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
       border-radius: 0px 0px 10px 10px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second-contact {
+    .insurance-cont-info-items h2 .second-contact {
       background-color: rgba(0, 0, 0, 0.76);
       padding: 4px 10px;
       border-radius: 10px 10px 0px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer-contact {
+    .insurance-cont-info-items h2 .tercer-contact {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
       border-radius: 0px 10px 10px 10px;
       backdrop-filter: blur(10px);
-    }
+    } */
   
     .cont-title h3 {
       font-size: 2vh;
@@ -291,7 +291,7 @@
       margin-top: 80px;
     }
   
-    .financy-text {
+    .insurance-text {
       width: 80%;
       font-size: 1.1rem;
       text-align: center;
@@ -328,14 +328,14 @@
       justify-content: space-between;
     }
   
-    .financy-cont-info-items {
+    .insurance-cont-info-items {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
   
-    .financy-cont-info-items h2 {
+    .insurance-cont-info-items h2 {
       width: 100%;
       font-size: 3vh;
       color: white;
@@ -348,60 +348,60 @@
       align-items: center;
     }
   
-    .financy-cont-info-items h2 .financy-box-first-title {
+    .insurance-cont-info-items h2 .insurance-box-first-title {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
   
-    .financy-cont-info-items h2 .first {
+    .insurance-cont-info-items h2 .insurance-first-item {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
       border-radius: 10px 10px 0px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second {
+    .insurance-cont-info-items h2 .insurance-second-item {
       background-color: rgba(0, 0, 0, 0.76);
-      padding: 4px 10px;
-      border-radius: 0px 0px 10px 10px;
+      padding: 4px 44px;
+      border-radius: 10px 10px 0px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer {
+    .insurance-cont-info-items h2 .insurance-tercer-item {
       background-color: rgba(255, 0, 0, 0.884);
-      padding: 4px 10px;
-      border-radius: 0px 0px 10px 10px;
+      padding: 4px 50px;
+      border-radius: 10px 10px 10px 10px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second-service {
+    /* .insurance-cont-info-items h2 .second-service {
       background-color: rgba(0, 0, 0, 0.76);
       padding: 4px 10px;
       border-radius: 10px 10px 10px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer-service {
+    .insurance-cont-info-items h2 .tercer-service {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
       border-radius: 0px 0px 10px 10px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .second-contact {
+    .insurance-cont-info-items h2 .second-contact {
       background-color: rgba(0, 0, 0, 0.76);
       padding: 4px 10px;
       border-radius: 10px 10px 0px 0px;
       backdrop-filter: blur(10px);
     }
   
-    .financy-cont-info-items h2 .tercer-contact {
+    .insurance-cont-info-items h2 .tercer-contact {
       background-color: rgba(255, 0, 0, 0.884);
       padding: 4px 10px;
       border-radius: 0px 10px 10px 10px;
       backdrop-filter: blur(10px);
-    }
+    } */
   
     .cont-title h3 {
       text-align: center;
@@ -417,11 +417,11 @@
       width: 75%;
     }
   
-    .cont-contact-financy {
+    .cont-contact-insurance {
       display: none;
     }
   
-    .btn-financy-responsive {
+    .btn-insurance-responsive {
       display: block;
       background-color: rgb(0, 0, 0);
       color: rgb(255, 255, 255);
@@ -439,13 +439,13 @@
       bottom: 5%;
     }
   
-    .btn-financy-responsive:hover {
+    .btn-insurance-responsive:hover {
       border: 2px solid rgb(255, 255, 255);
       background-color: rgb(0, 0, 0);
       color: rgb(255, 255, 255);
     }
   
-    .financy-title {
+    .insurance-title {
       width: 100%;
       font-size: 2.1rem;
       font-weight: bold;
@@ -457,7 +457,7 @@
       margin-top: 60px;
     }
   
-    .financy-text {
+    .insurance-text {
       width: 100%;
       font-size: 1rem;
       text-align: center;

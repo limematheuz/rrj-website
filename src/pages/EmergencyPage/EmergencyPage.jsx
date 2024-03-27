@@ -34,7 +34,7 @@ export default function EmergencyPage(){
                     </span>
                     {/* <span className="tercer">EXPERTS </span> */}
                   </h2>
-                  <h3> work with professionals</h3>
+                  <h3> work with <br />professionals</h3>
                 </div>
                 <div className="cont-contact-emergency">
                   <a href="#emergency-contact" className="btn-contact-emergency">
